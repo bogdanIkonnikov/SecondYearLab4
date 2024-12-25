@@ -19,9 +19,6 @@ public class QuadraticEquation {
         if (D == 0) {
             return new Double[] {(-b)/(2*a)};
         }
-        if (D < 0) {
-            throw new ArithmeticException("This equation has no real roots");
-        }
         return new Double[] {};
     }
 }
