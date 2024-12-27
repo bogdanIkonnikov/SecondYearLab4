@@ -3,7 +3,7 @@ package org.example;
 public class RealFunction implements  FunctionOnInterval{
     private final double A, B, C, D, upperLimit, lowerLimit;
 
-    public RealFunction(double a, double b, double c, double d, double upperLimit, double lowerLimit) {
+    public RealFunction(double a, double b, double c, double d, double lowerLimit, double upperLimit) {
         A = a;
         B = b;
         C = c;

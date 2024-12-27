@@ -3,7 +3,7 @@ package org.example;
 public class LinearFunction implements FunctionOnInterval{
     private final double A, B, upperLimit, lowerLimit;
 
-    public LinearFunction(double a, double b, double upperLimit, double lowerLimit) {
+    public LinearFunction(double a, double b, double lowerLimit, double upperLimit) {
         A = a;
         B = b;
         this.upperLimit = upperLimit;

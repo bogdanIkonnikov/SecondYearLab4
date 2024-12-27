@@ -3,7 +3,7 @@ package org.example;
 public class SinFunction  implements FunctionOnInterval {
     private final double A, B, upperLimit, lowerLimit;
 
-    public SinFunction(double a, double b, double upperLimit, double lowerLimit) {
+    public SinFunction(double a, double b, double lowerLimit, double upperLimit) {
         A = a;
         B = b;
         this.upperLimit = upperLimit;
